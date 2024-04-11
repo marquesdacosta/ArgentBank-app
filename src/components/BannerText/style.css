@@ -1,0 +1,24 @@
+.sub {
+    font-weight: bold;
+    margin-bottom: 19.2px;
+    font-size: 1.5rem;
+    margin-bottom: 0;
+    color: #2c3e50;
+}
+.banner-text {
+    position: absolute;
+    width: 364px;
+    height: 211.2px;
+    background-color: white;
+    top: 115px;
+    right: 50px;
+    margin: 2rem;
+    padding: 2rem;
+    box-sizing: border-box;
+}
+.text {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    color: #2c3e50;
+    font-size: 1.2rem;
+    margin-top: 19.2px;
+}

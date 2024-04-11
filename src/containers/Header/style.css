@@ -1,0 +1,23 @@
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 64.38px;
+    padding: 5px 20px;
+    box-sizing: border-box;
+}
+.main-nav {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-right: 8px;
+    text-decoration: none;
+    color: #2c3e50;
+}
+.main-nav p {
+    font-weight: bold;
+    font-size: 16px;
+}
+.logo-link {
+    height: 54px;
+}

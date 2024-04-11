@@ -1,0 +1,32 @@
+body {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+}
+.feature-item {
+    display: flex;
+    flex-direction: column;
+    width: 33.333333%;
+    align-items: center;
+    padding: 2.5rem;
+    gap: 5px;
+}
+.feature-item img {
+    width: 152px;
+    height: 152px;
+    border: 10px solid #00bc77;
+    border-radius: 50%;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+.feature-item p {
+    width: 400px;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 3px;
+}
+.feature-item h3 {
+    color: #222;
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+    margin-top: 18px;
+}
