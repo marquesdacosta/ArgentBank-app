@@ -1,0 +1,9 @@
+.main-bg-dark {
+    background-color: #12002b;
+    height: 880px;
+    padding: 48px;
+    box-sizing: border-box;
+}
+html {
+    color: #2c3e50;
+}

@@ -1,0 +1,17 @@
+.all-nav {
+    display: flex;
+}
+.nav-log-out {
+    display: flex;
+    font-weight: bold;
+    color: #2c3e50;
+    text-decoration: none;
+    align-items: center;
+    gap: 5px;
+}
+.main-nav :hover{
+    text-decoration: underline;
+}
+.nav-log-out :hover {
+    text-decoration: underline;
+}
