@@ -1,4 +1,4 @@
-import Banner from '../../components/Banner';
+import Banner from '../../containers/Banner';
 import Features from '../../containers/Features';
 import Header from '../../containers/Header';
 import { FaCircleUser } from "react-icons/fa6";

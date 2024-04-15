@@ -8,9 +8,8 @@
 .banner-text {
     position: absolute;
     width: 364px;
-    height: 211.2px;
     background-color: white;
-    top: 115px;
+    top: 50px;
     right: 50px;
     margin: 2rem;
     padding: 2rem;
@@ -21,4 +20,24 @@
     color: #2c3e50;
     font-size: 1.2rem;
     margin-top: 19.2px;
+}
+@media (max-width : 919px) {
+    .banner-text {
+        width: 200px;
+        margin: 0 auto;
+        box-sizing: content-box;
+        top: 2rem;
+        position: relative;
+        right: auto;
+    }
+    .sub {
+        font-weight: bold;
+        font-size: 1rem;
+        margin: 0;
+    }
+    .text {
+        margin-bottom: 0;
+        font-size: 0.9rem;
+        margin-top: 14.4px;
+    }
 }

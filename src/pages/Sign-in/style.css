@@ -3,7 +3,15 @@
     height: 880px;
     padding: 48px;
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 html {
     color: #2c3e50;
+}
+@media (min-width: 1919px) {
+    .main-bg-dark {
+        height: 814px;
+    }
 }

@@ -1,0 +1,8 @@
+.welcome-msg {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    margin-top: -26px;
+    margin-bottom: 21px;
+}
