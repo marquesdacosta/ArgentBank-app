@@ -5,20 +5,14 @@ import { FaSignOutAlt } from "react-icons/fa";
 import "./style.css"
 import LinkMainNav from '../../components/LinkMainNav';
 
-function Header({to , SignIn, SignOut , logoIn, logoOut , to2}){
+function Header(){
     return (
         <header>
             <nav>
                 <Link to="/"className='logo-link'><img src={logo} alt="logo argent bank" className='logo' />
                 </Link>
                 <div>
-                    <LinkMainNav
-                    to={to}
-                    SignOut={SignOut}
-                    SignIn={SignIn}
-                    logoIn={logoIn}
-                    logoOut={logoOut}
-                    to2={to2}/>
+                    <LinkMainNav/>
                 </div>
             </nav>
         </header>

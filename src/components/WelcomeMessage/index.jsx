@@ -1,12 +1,14 @@
 import "./style.css";
+import { useSelector } from 'react-redux';
 
+function WelcomeMessage() {
 
-function WelcomeMessage({prenom, nom }) {
+    const { firstName, lastName } = useSelector(state => state.user);
     return (
         <div className="welcome-msg">
             <h1>
                 Welcome back <br />
-                {prenom} {nom}!
+                {firstName} {lastName}!
             </h1>
         </div>
     )

@@ -46,3 +46,8 @@ label {
     margin-left: 0.5rem;
     font-weight: normal;
 }
+.error-message {
+    transform: translateY(15px);
+    color: red;
+    text-align: center;
+}
