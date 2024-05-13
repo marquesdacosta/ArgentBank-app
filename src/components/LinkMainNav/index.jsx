@@ -20,7 +20,7 @@ function LinkMainNav() {
 
   const handleLogout = () => {
     dispatch(logout());
-    navigate('/sign-in'); // Redirige vers la page de login après la déconnexion
+    navigate('/'); // Redirige vers la page d'accueil' après la déconnexion
   };
 
     return (

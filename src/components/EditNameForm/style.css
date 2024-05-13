@@ -35,3 +35,29 @@
     border-color: #00bc77;
     cursor: pointer;
 }
+@media (max-width : 1400px) {
+    .editnameform {
+        width: 40%;
+    }
+}
+@media (max-width : 720px) {
+    .editnameform {
+            width: 60%;
+        }
+    .editnameform h2 {
+        max-width: 150px;
+        padding-bottom: 20px;
+        }
+    .editnameform input {
+        width: 65%;
+        height: 20px;
+    }
+    .editnameform label {
+        text-align: center;
+    }
+}
+@media (max-width : 440px) {
+    .editnameform button {
+        padding: 5px 8px;
+    }
+}

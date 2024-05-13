@@ -100,7 +100,7 @@ export const changeUserName = (token, newUserName) => async (dispatch) => {
       { userName: newUserName },
       config
     );
-    
+
     dispatch({ type: USER_PROFILE_UPDATE, payload: data });
   } catch (error) {
     console.error("Error:", error);
